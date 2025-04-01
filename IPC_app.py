@@ -64,7 +64,7 @@ def ipc_chatbot(query, index, chunks):
     return response
 
 # Streamlit UI
-st.image("png-transparent-x-men-cyclops-illustration-marvel-avengers-alliance-cyclops-professor-x-jean-grey-marvel-comics-x-men-s-comics-superhero-fictional-character-thumbnail.png")
+st.image("png-transparent-x-men-cyclops-illustration-marvel-avengers-alliance-cyclops-professor-x-jean-grey-marvel-comics-x-men-s-comics-superhero-fictional-character-thumbnail.png", use_column_width=True)
 st.title("IPC Legal Chatbot")
 
 uploaded_file = st.file_uploader("Upload IPC PDF", type=["pdf"])
